@@ -1,0 +1,8 @@
+{
+ "version": "2.1.6",
+ "zip": "藥物儲倉管理_v2.1.6.zip",
+ "sha256": "893bcede06e634be1e83a25a753f69231a03937319224ecfd99bcd051c1d556e",
+ "size": 20627347,
+ "published": "2026-10-12T07:42:44",
+ "notes": "修正在別台電腦上無法檢查更新（CERTIFICATE_VERIFY_FAILED）：打包的 Python 只會到打包電腦的路徑找根憑證，現在 App 內附 Mozilla 根憑證清單（`med_inventory/cacert.pem`，`updater.ssl_context`）；憑證錯誤與網路不通分開說明。"
+}
